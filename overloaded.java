@@ -26,23 +26,23 @@ public class overloaded
     {
     overload ob1 = new overload();
     Scanner sc = new Scanner(System.in);
-    System.out.println("Enter the String:");
+    System.out.println("Enter 2 String:");
     String h=sc.nextLine();
     String i=sc.nextLine();
     String sum4 = ob1.add(h,i);
     System.out.println("Sum= "+sum4);
-    System.out.println("Enter the numbers");
+    System.out.println("Enter 2 numbers");
     int a=sc.nextInt();
     int b=sc.nextInt();
     int sum1 = ob1.add(a,b);
     System.out.println("Sum= "+sum1);
-    System.out.println("Enter the numbers");
+    System.out.println("Enter three numbers");
     int c=sc.nextInt();
     int d=sc.nextInt();
     int e=sc.nextInt();
     int sum2 = ob1.add(c,d,e);
     System.out.println("Sum= "+sum2);
-    System.out.println("Enter the numbers");
+    System.out.println("Enter 2 double numbers");
     double f=sc.nextDouble();
     double g=sc.nextDouble();
     double sum3 = ob1.add(f,g);
