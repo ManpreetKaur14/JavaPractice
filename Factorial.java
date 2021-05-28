@@ -1,19 +1,26 @@
-public class Factorial
-{  
-    public static void main(String args[])
-    {  
-    //creating two matrices    
-    int a[][]={{1,3,4},{2,4,3},{3,4,5}};    
-    int b[][]={{1,3,4},{2,4,3},{1,2,4}};    
-           
-    int c[]=new int[6];      
-    for(int i=0;i<3;i++)
-    {    
-    for(int j=0;j<3;j++)
-    {    
-    c[i]=a[i][j]+b[i][j];    
-    System.out.print(c[i]+" ");    
-    }     
-    }    
-    }
-}  
+import java.util.*;
+class Compare
+{
+	Compare(int x,int y)
+	{
+        int temp;
+        temp = x;
+        x=y;
+        y=temp;
+	    System.out.println("A = "+x);
+        System.out.println("B = "+y);
+	}
+}
+class Factorial
+{
+public static void main(String[] arg)
+{
+	int a,b;
+	Scanner sc=new Scanner(System.in);
+	System.out.print("A = ");
+	a=sc.nextInt();
+	System.out.print("B = ");
+	b=sc.nextInt();
+	Compare c=new Compare(a,b);
+}
+}
