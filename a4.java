@@ -12,7 +12,7 @@ void display() {
 }
 }
 class hcf extends Calculator
-{
+{  
 	int h,a;
     void findhcf() 
 	{
