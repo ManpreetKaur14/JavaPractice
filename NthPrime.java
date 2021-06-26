@@ -11,6 +11,8 @@ class NthPrime {
     public static void main(String args[]) {
         NthPrime ob = new NthPrime();
         Scanner sc = new Scanner(System.in);
+        System.out.println("Name: Nilesh Shukla");
+        System.out.println("Roll Number: 32201219022");
         System.out.print("Enter the Nth term: ");
         int n = sc.nextInt();
         if (n == 1)
@@ -29,3 +31,9 @@ class NthPrime {
         }
     }
 }
+
+
+
+
+
+
